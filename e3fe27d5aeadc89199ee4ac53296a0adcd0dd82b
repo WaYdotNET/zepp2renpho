@@ -1,0 +1,82 @@
+{
+  "schema_version": "ai-attribution/1.2.0",
+  "base_commit_sha": "75224d91951ca9f81f56839b5783595cb486b3d1",
+  "sessions": {
+    "01a20d7e-0996-7457-bd1d-4166df802215": {
+      "agent": {
+        "tool": "omp",
+        "model": "anthropic/claude-opus-5-5"
+      },
+      "human_author": "Carlo Bertini \u003cwaydotnet@gmail.com\u003e"
+    }
+  },
+  "files": {
+    "README.md": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::2300032d6307": [
+        "17-18",
+        35
+      ]
+    },
+    "tests/test_zepp.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::154c9fdfa971": [
+        187,
+        "193-194",
+        "198-205",
+        207,
+        "209-210"
+      ]
+    },
+    "zepp2renpho/zepp.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::fe7944c1bac2": [
+        "87-90",
+        123,
+        364,
+        "372-373",
+        "664-668",
+        678
+      ]
+    },
+    "zepp2renpho/zepp_cli.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::45465d26e472": [
+        143,
+        161
+      ]
+    }
+  },
+  "deletions": {
+    "README.md": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::2300032d6307": {
+        "total": 2
+      }
+    },
+    "tests/test_zepp.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::154c9fdfa971": {
+        "total": 9
+      }
+    },
+    "zepp2renpho/zepp.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::fe7944c1bac2": {
+        "total": 18
+      }
+    },
+    "zepp2renpho/zepp_cli.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::45465d26e472": {
+        "total": 9
+      }
+    }
+  },
+  "turns": {
+    "01a20d7e-0996-7457-bd1d-4166df802215::154c9fdfa971": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d7e-0996-7457-bd1d-4166df802215::2300032d6307": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d7e-0996-7457-bd1d-4166df802215::45465d26e472": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d7e-0996-7457-bd1d-4166df802215::fe7944c1bac2": {
+      "model": "anthropic/claude-opus-5-5"
+    }
+  }
+}
