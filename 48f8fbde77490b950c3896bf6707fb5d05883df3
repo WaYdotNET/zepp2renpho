@@ -1,0 +1,300 @@
+{
+  "schema_version": "ai-attribution/1.2.0",
+  "base_commit_sha": "",
+  "sessions": {
+    "01a20d7e-0996-7457-bd1d-4166df802215": {
+      "agent": {
+        "tool": "omp",
+        "model": "anthropic/claude-opus-5-5"
+      },
+      "human_author": "Carlo Bertini \u003cwaydotnet@gmail.com\u003e"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6": {
+      "agent": {
+        "tool": "omp",
+        "model": "anthropic/claude-opus-5"
+      },
+      "human_author": "Carlo Bertini \u003cwaydotnet@gmail.com\u003e"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca": {
+      "agent": {
+        "tool": "omp",
+        "model": "anthropic/claude-opus-5"
+      },
+      "human_author": "Carlo Bertini \u003cwaydotnet@gmail.com\u003e"
+    }
+  },
+  "files": {
+    "README.md": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::b1d7f0076e7d": [
+        "1-35"
+      ]
+    },
+    "tests/fixtures/renpho/adult_row.json": {
+      "01a20d84-5358-776d-86c3-e48e1693aaca::09a4d23786f3": [
+        "1-39"
+      ]
+    },
+    "tests/fixtures/renpho/baby_row.json": {
+      "01a20d84-5358-776d-86c3-e48e1693aaca::8899e3bcacb5": [
+        "1-23"
+      ]
+    },
+    "tests/fixtures/renpho/family_list.json": {
+      "01a20d84-5358-776d-86c3-e48e1693aaca::be0aba19dc77": [
+        "1-16"
+      ]
+    },
+    "tests/fixtures/zepp/family_members.json": {
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::e22c41dad47a": [
+        "1-34"
+      ]
+    },
+    "tests/fixtures/zepp/login.json": {
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::ba344786941b": [
+        "1-25"
+      ]
+    },
+    "tests/fixtures/zepp/weight_page_1.json": {
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::9bf6d2c51f58": [
+        "1-59"
+      ]
+    },
+    "tests/fixtures/zepp/weight_page_2.json": {
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::aaceba5b005c": [
+        "1-45"
+      ]
+    },
+    "tests/test_renpho.py": {
+      "01a20d84-5358-776d-86c3-e48e1693aaca::564a137477d4": [
+        181
+      ],
+      "01a20d84-5358-776d-86c3-e48e1693aaca::baa163b6d410": [
+        "1-180",
+        "182-348"
+      ]
+    },
+    "tests/test_zepp.py": {
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::8146c97bd8c8": [
+        "1-456"
+      ]
+    },
+    "zepp2renpho/renpho.py": {
+      "01a20d84-5358-776d-86c3-e48e1693aaca::7b09d3dac8a4": [
+        "1-579"
+      ]
+    },
+    "zepp2renpho/renpho_cli.py": {
+      "01a20d84-5358-776d-86c3-e48e1693aaca::7dbb4cbcffc4": [
+        "1-31",
+        "33-418",
+        "420-441"
+      ],
+      "01a20d84-5358-776d-86c3-e48e1693aaca::b130d03b0c14": [
+        32,
+        419
+      ]
+    },
+    "zepp2renpho/zepp.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::8c9a36d6ae65": [
+        "652-664",
+        668
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::122f1485a49b": [
+        "1-46",
+        "48-534",
+        "551-591",
+        "594-597",
+        599,
+        603,
+        "609-651",
+        "665-667",
+        "669-688"
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::3fce9d77bee5": [
+        "535-546",
+        "549-550"
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::54519e4cc004": [
+        "547-548"
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::5b364165c81e": [
+        47
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::5d72d770023a": [
+        "592-593",
+        598,
+        "600-602",
+        "604-608"
+      ]
+    },
+    "zepp2renpho/zepp_cli.py": {
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::17a044fa8746": [
+        30,
+        32
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::21aaa243cdad": [
+        133
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::36e87b52c80c": [
+        "59-62"
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::3b580476b90e": [
+        "1-29",
+        31,
+        "33-58",
+        "63-126",
+        "129-132",
+        "134-137",
+        139,
+        "141-161",
+        "163-179",
+        "181-185"
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::45f33d85cead": [
+        "127-128"
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::99e5c1210765": [
+        180
+      ],
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::d22b846a01d1": [
+        138,
+        140,
+        162
+      ]
+    }
+  },
+  "deletions": {
+    "tests/test_renpho.py": {
+      "01a20d84-5358-776d-86c3-e48e1693aaca::564a137477d4": {
+        "total": 1
+      }
+    },
+    "zepp2renpho/renpho_cli.py": {
+      "01a20d84-5358-776d-86c3-e48e1693aaca::a099356d7f9e": {
+        "total": 1
+      },
+      "01a20d84-5358-776d-86c3-e48e1693aaca::b130d03b0c14": {
+        "total": 2
+      }
+    },
+    "zepp2renpho/zepp.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::8c9a36d6ae65": {
+        "total": 1
+      },
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::54519e4cc004": {
+        "total": 1
+      },
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::5b364165c81e": {
+        "total": 1
+      },
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::5d72d770023a": {
+        "total": 1
+      }
+    },
+    "zepp2renpho/zepp_cli.py": {
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::21aaa243cdad": {
+        "total": 1,
+        "human": 1
+      },
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::36e87b52c80c": {
+        "total": 1
+      },
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::45f33d85cead": {
+        "total": 2
+      },
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::99e5c1210765": {
+        "total": 1
+      },
+      "01a20d84-5350-7592-b3f6-06f9aeaddcc6::d22b846a01d1": {
+        "total": 5
+      }
+    }
+  },
+  "turns": {
+    "01a20d7e-0996-7457-bd1d-4166df802215::8c9a36d6ae65": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d7e-0996-7457-bd1d-4166df802215::b1d7f0076e7d": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::122f1485a49b": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::17a044fa8746": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::21aaa243cdad": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::36e87b52c80c": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::3b580476b90e": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::3fce9d77bee5": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::45f33d85cead": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::54519e4cc004": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::5b364165c81e": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::5d72d770023a": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::8146c97bd8c8": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::99e5c1210765": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::9bf6d2c51f58": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::aaceba5b005c": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::ba344786941b": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::d22b846a01d1": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5350-7592-b3f6-06f9aeaddcc6::e22c41dad47a": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::09a4d23786f3": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::564a137477d4": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::7b09d3dac8a4": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::7dbb4cbcffc4": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::8899e3bcacb5": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::a099356d7f9e": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::b130d03b0c14": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::baa163b6d410": {
+      "model": "anthropic/claude-opus-5"
+    },
+    "01a20d84-5358-776d-86c3-e48e1693aaca::be0aba19dc77": {
+      "model": "anthropic/claude-opus-5"
+    }
+  }
+}
