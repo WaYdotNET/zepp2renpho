@@ -1,0 +1,85 @@
+{
+  "schema_version": "ai-attribution/1.2.0",
+  "base_commit_sha": "a98523e5852ae8aa3d52b46759b733b5b4df542d",
+  "sessions": {
+    "01a20d7e-0996-7457-bd1d-4166df802215": {
+      "agent": {
+        "tool": "omp",
+        "model": "anthropic/claude-opus-5-5"
+      },
+      "human_author": "Carlo Bertini \u003cwaydotnet@gmail.com\u003e"
+    }
+  },
+  "files": {
+    "README.md": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::e965d941d516": [
+        "11-12"
+      ]
+    },
+    "tests/test_renpho.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::16b92b456d7b": [
+        23
+      ]
+    },
+    "zepp2renpho/renpho.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::0603ed9e6c94": [
+        "98-101",
+        123,
+        "260-287",
+        "607-609"
+      ],
+      "01a20d7e-0996-7457-bd1d-4166df802215::297f8a4db7c4": [
+        "12-14"
+      ]
+    },
+    "zepp2renpho/renpho_cli.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::fcb405070e75": [
+        30,
+        "34-36",
+        "68-73",
+        "86-90",
+        "205-210",
+        "217-223",
+        227,
+        "232-251"
+      ]
+    }
+  },
+  "deletions": {
+    "README.md": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::e965d941d516": {
+        "total": 1
+      }
+    },
+    "zepp2renpho/renpho.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::0603ed9e6c94": {
+        "total": 1
+      },
+      "01a20d7e-0996-7457-bd1d-4166df802215::297f8a4db7c4": {
+        "total": 3
+      }
+    },
+    "zepp2renpho/renpho_cli.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::fcb405070e75": {
+        "total": 4
+      }
+    }
+  },
+  "turns": {
+    "01a20d7e-0996-7457-bd1d-4166df802215::0603ed9e6c94": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d7e-0996-7457-bd1d-4166df802215::16b92b456d7b": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d7e-0996-7457-bd1d-4166df802215::297f8a4db7c4": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d7e-0996-7457-bd1d-4166df802215::e965d941d516": {
+      "model": "anthropic/claude-opus-5-5"
+    },
+    "01a20d7e-0996-7457-bd1d-4166df802215::fcb405070e75": {
+      "model": "anthropic/claude-opus-5-5"
+    }
+  }
+}
