@@ -1,0 +1,26 @@
+{
+  "schema_version": "ai-attribution/1.2.0",
+  "base_commit_sha": "e3fe27d5aeadc89199ee4ac53296a0adcd0dd82b",
+  "sessions": {
+    "01a20d7e-0996-7457-bd1d-4166df802215": {
+      "agent": {
+        "tool": "omp",
+        "model": "anthropic/claude-opus-5-5"
+      },
+      "human_author": "Carlo Bertini \u003cwaydotnet@gmail.com\u003e"
+    }
+  },
+  "files": {
+    "zepp2renpho/renpho_cli.py": {
+      "01a20d7e-0996-7457-bd1d-4166df802215::32ab5c04fc8e": [
+        "22-23",
+        "423-425"
+      ]
+    }
+  },
+  "turns": {
+    "01a20d7e-0996-7457-bd1d-4166df802215::32ab5c04fc8e": {
+      "model": "anthropic/claude-opus-5-5"
+    }
+  }
+}
